@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=New+Tegomin&display=swap" rel="stylesheet">
+
+	<style type="text/css">
+		body {
+			background-color: #232323;
+			margin: 0;
+			font-family: New Tegomin
+		}
+
+		.nav-bar {
+			width: 80%;
+			margin: 0 auto;
+		}
+
+		header {
+		  	background: #191919;
+		}
+
+		header::after {
+		  	content: '';
+		  	display: table;
+		  	clear: both;
+		}
+
+		.logo {
+		  	float: left;
+		  	padding: 10px 0;
+		  	font-size: 220%;
+		  	color: white;
+		}
+
+		nav {
+		  	float: right;
+		}
+
+		nav ul {
+		  	margin: 0;
+		  	padding: 0;
+			list-style: none;
+		}
+
+		nav li {
+		  	display: inline-block;
+		  	margin-left: 70px;
+		  	padding-top: 23px;
+
+		  	position: relative;
+		}
+
+		nav a {
+		  	color: #D9D9D9;
+		  	text-decoration: none;
+		  	text-transform: uppercase;
+		  	font-size: 14px;
+		}
+
+		nav a:hover {
+		  	color: white;
+		}
+
+		nav a::before {
+		  	content: '';
+		  	display: block;
+			height: 5px;
+			background-color: white;
+			position: absolute;
+			top: 0;
+		  	width: 0%;
+		  	transition: all ease-in-out 200ms;
+		}
+
+		nav a:hover::before {
+		  width: 100%;
+		}
+
+
+		.title {		
+			font-size: 200%;
+			color: white;
+			padding-left: 60px;
+		}
+
+		.body {
+			font-size: 150%;
+			color: #D9D9D9;
+			padding-left: 60px;
+			padding-right: 60px;
+			font-family: New Tegomin;
+		}
+
+	</style>
+
+	<header>
+		<div class = "nav-bar">
+
+			<a href = ""><h1 class = "logo">OUT OF SIGHT</h1></a>
+
+			<nav>
+
+
+				<ul>
+  					<li><a href = "#"><h3>Steam</h3></a></li>
+					<li><a href = "#"><h3>Google Play</h3></a></li>
+					<li><a href = "#"><h3>Instagram</h3></a></li>
+					<li><a href = "#"><h3>Twitter</h3></a></li>
+				</ul>
+			</nav>
+
+		</div>
+	</header>
+
+	<head>
+		<title>
+			Out Of Sight
+		</title>
+	</head>
+
+	<body>
+		<h2 class = "title"> WHAT IS THE GAME ABOUT? </h2>
+
+		<p class = "body">
+			Out Of Sight is an online multiplayer hide and seek game. The game is based around a group of criminals that tried to rob the bank, but the cops arrived. When the game start some people will become the criminals and the other will become the police. The criminals' goal is to try to stay out of sight and stay hidden for as long as possible. The cops' goal is to find all criminals and arrest them!
+		</p>
+
+		<h2 class = "title"> WISHLIST ON STEAM </h2>
+
+		<p class = "body"> < AN EMBED FOR THE GAME WHEN ITS ON STEAM WILL BE HERE > </p>
+
+		<h2 class = "title"> TRAILER </h2>
+
+		<p class = "body"> < TRAILER WILL BE HERE > </p>
+	</body>
+</html>
